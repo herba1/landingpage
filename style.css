@@ -37,6 +37,7 @@ body {
     background-color: #1f2937;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 60px;
     gap: 40px;
     /* default color */
@@ -46,6 +47,14 @@ body {
 .cont1Img{
     width : 450px;
     height: auto;
+    flex: 0;
+    flex-shrink: 1;
+    flex-basis: 300px;
+}
+
+.cont1Left{
+    flex: 0;
+    flex-basis: 300px;
 }
 
 
