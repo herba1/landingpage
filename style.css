@@ -27,9 +27,11 @@ body {
 
 .logo{
     color: #f9faf8;
+    font-size: 24px;
 }
 
 .headerRight a{
+    font-size: 18px;
     color: #e5e7eb;
 }
 
@@ -44,6 +46,17 @@ body {
     /* default color */
     color: #e5e7eb;
 }
+.cont1Left{
+    flex: 0;
+    flex-basis: 500px;
+}
+
+
+.cont1Title{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
 
 .cont1Img{
     width : 410px;
@@ -53,10 +66,6 @@ body {
     /* flex-basis: 300px; */
 }
 
-.cont1Left{
-    flex: 0;
-    flex-basis: 300px;
-}
 
 .signButton{
     margin-top: 10px;
@@ -71,6 +80,12 @@ body {
     align-items: center;
     padding: 40px;
     gap: 50px;
+}
+
+.cont2Title{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
 }
 
 .cards{
@@ -92,29 +107,39 @@ body {
 
 .cardText{
     text-align: center;
+    font-size: 18px;
+    color: #1f2937; 
 }
 
 .cardIMG{
     width: 130px;
     height: 130px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
 }
 
 /* content box 3 */
 .cont3{
     background-color: #e5e7eb;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.quoteContainer{
     display: flex;
     flex-direction: column;
-    padding: 60px;
     align-items: center;
+    justify-content: center;
     gap: 10px;
+    flex: 0 0 800px;
 }
 
 .quote{
-    font-size: 25px;
-    font-weight: 1;
-    margin-right: 200px;
-    margin-left: 200px;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
 
 }
 
@@ -122,14 +147,12 @@ body {
     align-self: flex-end;
     font-size: 20px;
     font-weight: 700;
-    margin-right: 200px;
 }
 
 .cont4{
     display: flex;
     justify-content: center;
     align-items: center;
-
     padding: 60px;
 }
 
@@ -150,6 +173,11 @@ body {
     font-size: 20px;
 }
 
+.popupText{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .popupRight{
     background-color: #3882f6;
     border: 2px solid white;
@@ -164,6 +192,11 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px;
+}
+
+.footerText{
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 
