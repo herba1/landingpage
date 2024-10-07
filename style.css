@@ -9,6 +9,7 @@ body {
     flex-direction: column;
 }
 
+/* header stuff */
 .header{
     background-color: #1f2937;
     padding: 10px;
@@ -38,18 +39,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 60px;
+    padding: 40px;
     gap: 40px;
     /* default color */
     color: #e5e7eb;
 }
 
 .cont1Img{
-    width : 450px;
+    width : 410px;
     height: auto;
-    flex: 0;
+    /* flex: 0; */
     flex-shrink: 1;
-    flex-basis: 300px;
+    /* flex-basis: 300px; */
 }
 
 .cont1Left{
@@ -57,11 +58,126 @@ body {
     flex-basis: 300px;
 }
 
+.signButton{
+    margin-top: 10px;
+    background-color: #3882f6;
+    border: 1px solid #3882f6 ;
+}
+
+/* content section 2 */
+.cont2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 50px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0;
+    gap: 10px;
+    flex-basis: 150px;
+}
+
+.cardText{
+    text-align: center;
+}
+
+.cardIMG{
+    width: 130px;
+    height: 130px;
+}
+
+/* content box 3 */
+.cont3{
+    background-color: #e5e7eb;
+
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    align-items: center;
+    gap: 10px;
+}
+
+.quote{
+    font-size: 25px;
+    font-weight: 1;
+    margin-right: 200px;
+    margin-left: 200px;
+
+}
+
+.quoteSig{
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 200px;
+}
+
+.cont4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 60px;
+}
+
+.popup{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.popupTitle{
+    font-size: 20px;
+}
+
+.popupRight{
+    background-color: #3882f6;
+    border: 2px solid white;
+}
+
+/* footer */
+.footer{
+
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
 
 
+/* general button style */
+.button{
+    border-radius: 10px;
+    padding: 8px 20px 8px 20px;
+    font-weight: 500;
+    color: white;
+}
 
-
+/* no link decoration */
 a {
     text-decoration: none;
     color: #e5e7eb;
 }
+
